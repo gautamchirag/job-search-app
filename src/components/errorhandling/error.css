@@ -1,0 +1,23 @@
+/* Errorcomponent.css */
+
+/* Style for the outer container div */
+.Errorcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Style for the error message div */
+.Errormessage {
+  font-size: 18px;
+  font-weight: bold;
+  color: red; /* Set your desired text color */
+  text-align: center;
+  padding: 20px;
+  border: 2px solid red; /* Add a border for emphasis */
+  border-radius: 5px;
+  background-color: #fff; /* Set your desired background color */
+}

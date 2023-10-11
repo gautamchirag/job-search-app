@@ -1,0 +1,67 @@
+.Header {
+  width: vw;
+  background-color: #0390fc;
+  border-bottom-left-radius: 108px;
+}
+.Navbar {
+  max-width: 1490px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  height: 140px;
+  text-transform: uppercase;
+}
+.nav-name {
+  font-size: 38px;
+  font-weight: 600;
+}
+.register-btn {
+  color: #fff;
+}
+.logout-btn {
+  border: none;
+  background-color: rgb(141, 211, 255);
+  padding: 0.6rem;
+  width: 5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .Navbar {
+    font-size: 1.1rem;
+  }
+  .nav-name {
+    font-size: 1.4rem;
+    border: 3px solid rgb(0, 32, 240);
+    border-radius: 7px;
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .Navbar {
+    font-size: 1.6rem;
+  }
+  .nav-name {
+    font-size: 1.4rem;
+    border: 3px solid rgb(0, 32, 240);
+    border-radius: 7px;
+    padding: 0.5rem;
+    /* margin: ; */
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .Navbar {
+    font-size: 1.9rem;
+  }
+}
